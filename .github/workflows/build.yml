@@ -37,6 +37,8 @@ jobs:
     - name: Upload
       run: |
         curl -T '{./RU/${{env.REPO}}_${{env.version}}_RU.zip,update_log.md}' -u ${{ secrets.WEBDAV_TOKEN }} 'https://dav.jianguoyun.com/dav/switch/${{env.REPO}}/'
+        mv ./CN/${{env.REPO}}_647_CN.zip ./${{env.REPO}}_CN.zip
+        mv ./EN/${{env.REPO}}_658_EN.zip ./${{env.REPO}}_EN.zip
         mv ./RU/${{env.REPO}}_${{env.version}}_RU.zip ./${{env.REPO}}_RU.zip
         
     - name: Release
@@ -45,6 +47,6 @@ jobs:
         draft: false
         tag_name: 'latest'
         files: |
-          ./CN/${{env.REPO}}_647_CN.zip
-          ./EN/${{env.REPO}}_658_EN.zip
+          ./${{env.REPO}}_CN.zip
+          ./${{env.REPO}}_EN.zip
           ./${{env.REPO}}_RU.zip
