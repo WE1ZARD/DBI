@@ -36,7 +36,7 @@ jobs:
 
     - name: Upload
       run: |
-        curl -T '{${{env.REPO}}_${{env.version}}_RU.zip,update_log.md}' -u ${{ secrets.WEBDAV_TOKEN }} 'https://dav.jianguoyun.com/dav/switch/${{env.REPO}}/'
+        curl -T '{./RU/${{env.REPO}}_${{env.version}}_RU.zip,update_log.md}' -u ${{ secrets.WEBDAV_TOKEN }} 'https://dav.jianguoyun.com/dav/switch/${{env.REPO}}/'
         
     - name: Release
       uses: softprops/action-gh-release@master
