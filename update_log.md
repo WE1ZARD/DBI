@@ -1,3 +1,16 @@
+## 710
+- Fixes for bugs that in some cases can corrupt gamesaves, timezone handling fixes, new version of libzstd with performance increase. 
+- Configureble passive port range for FTP. 
+- Changes in HTTP server. 
+- Some deadlock fixes in rare MTP cases. 
+- Support for 18.1 targeted games. 
+- Fixes for archived games handling. 
+- Add support for blawar's title db. 
+- Fix blacklist on update check. 
+- Fix memory leak in FTP sessions. 
+- Fix ticket install for some corrupted tickets.
+- Some optimizations and speed up in save handling.
+
 ## 709
 - Initial preparation for 19.0.0 support and minor optimizations in memory usage when working with MTP.
 
