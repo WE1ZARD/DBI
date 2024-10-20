@@ -1,5 +1,6 @@
 ## 712
-- not mentioned.
+- Huge and small bugfixes
+- Fixed HTTP 404 error handling to display proper error message instead of empty response
 
 ## 710
 - Fixes for bugs that in some cases can corrupt gamesaves, timezone handling fixes, new version of libzstd with performance increase. 
