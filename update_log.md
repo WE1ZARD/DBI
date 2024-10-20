@@ -1,3 +1,6 @@
+## 712
+- not mentioned.
+
 ## 710
 - Fixes for bugs that in some cases can corrupt gamesaves, timezone handling fixes, new version of libzstd with performance increase. 
 - Configureble passive port range for FTP. 
@@ -10,6 +13,11 @@
 - Fix memory leak in FTP sessions. 
 - Fix ticket install for some corrupted tickets.
 - Some optimizations and speed up in save handling.
+- Added ProgramSDK version check during installation to verify game compatibility
+- Added warning notification if ProgramSDK version is higher than current console firmware
+- Expanded "System Information" section in Tools
+- Initial preparation for FW 19.0.0 support
+- Minor RAM usage optimizations for MTP USB operations
 
 ## 709
 - Initial preparation for 19.0.0 support and minor optimizations in memory usage when working with MTP.
