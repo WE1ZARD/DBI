@@ -47,6 +47,8 @@ FoolproofSaveDelete=false
 TimeShow=true
 ; Show time with seconds
 TimeShowSeconds=true
+; Run Application list from file browser by pressing L
+BrowseAppsFromFiles=false
 
 [Filtering]
 ; Apply filebrowser filter to directories
