@@ -1,5 +1,5 @@
 ## 713
-- no mentioned
+- Fixed an error `2168-0002 010000000000100D` on 712.
 
 ## 712
 - Huge and small bugfixes
