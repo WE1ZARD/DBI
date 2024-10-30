@@ -179,6 +179,7 @@ Hidden=false
 ; <display name>=<type>|<URL>
 ;NSP Indexer=URLList|http://192.168.1.47/nspindexer/index.php?DBI
 ;Home server=ApacheHTTP|http://192.168.1.47/Nintendo/Switch/
+;WebDAV test=WebDAV|http://user:password@192.168.1.47/webdav/
 ;Test FTP=FTP|ftp://192.168.1.24:2121/
 ;Test SFTP=SFTP|sftp://user:password@192.168.1.24/
 ;Test SFTP=SFTP|sftp://remote_user@192.168.1.47/

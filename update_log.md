@@ -1,3 +1,18 @@
+## 718
+Add WebDAV, alpha testing.
+
+## 716
+Added dual progress indicators for game installation:
+Separate progress bars for Read (R) and Write (W) operations
+
+## 715
+Critical crash when ticket reference is missing
+File browser selection state is now preserved after file installation
+Various minor bug fixes and stability improvements
+New popup notification for missed or wrong keys on application startup
+Changed
+Enhanced file browser behavior to maintain selected items state
+
 ## 713
 - Fixed an error `2168-0002 010000000000100D` on 712.
 
