@@ -1,3 +1,6 @@
+## 720
+A bunch of small fixes in webdav.
+
 ## 719
 Support WebDAV
 
