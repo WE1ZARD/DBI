@@ -1,3 +1,6 @@
+## 724
+Fix for creating folder by MTR
+
 ## 720
 A bunch of small fixes in webdav.
 
