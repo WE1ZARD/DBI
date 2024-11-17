@@ -50,6 +50,8 @@ TimeShowSeconds=true
 BrowseAppsFromFiles=false
 ; Validate SSL certificates on network connections
 ValidateSSL=false
+; UpdateURL
+DBIUpdateURL=http://192.168.1.47/DBI/latest1.zip
 
 [Filtering]
 ; Apply filebrowser filter to directories
@@ -115,6 +117,8 @@ PatchVideoRec=false
 [MTP]
 ; Show or not NSP that includes base game, latest update and all DLC in single multi-title file
 ShowCombinedNSP=true
+; Add [Base] and [Update] suffix to filename
+AddBaseUpdate = false
 ; Show or not virtual "Mods & cheats" folder that redirects to sdmc:/atmosphere/contents/TITLEID
 ShowMAC=true
 ; Use TitleID for "Mods & cheats" folder

@@ -1,3 +1,14 @@
+## 727
+DBI with self-updating capability
+The archive should look like name.zip/DBI.nro
+
+Is this how it will work in the config? In the General section
+
+; UpdateURL
+DBIUpdateURL=http://192.168.1.47/DBI/latest.zip
+
+With a question about updating the config
+
 ## 724
 Fix for creating folder by MTR
 
