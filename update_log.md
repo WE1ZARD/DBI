@@ -1,3 +1,6 @@
+## 729
+Fixed ZSDT error 10
+
 ## 727
 DBI with self-updating capability
 The archive should look like name.zip/DBI.nro
