@@ -1,3 +1,6 @@
+## 731
+Optional exit from DBI after installation
+
 ## 729
 Fixed ZSDT error 10
 

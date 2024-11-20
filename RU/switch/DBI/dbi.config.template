@@ -150,6 +150,8 @@ MinPassivePort=40000
 MaxPassivePort=40100
 ; send current directory as type=cdir
 CDIR=false
+; Force UTF8 usage
+ForceUtf8=true
 
 ;HTTP options
 [HTTP]
