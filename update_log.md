@@ -1,3 +1,6 @@
+## 735
+Fixed display of message about exhaustion of memory for internal buffers.
+
 ## 731
 Optional exit from DBI after installation
 
