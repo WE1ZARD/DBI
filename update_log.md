@@ -1,3 +1,6 @@
+## 739
+Added the function to create NSP forwarder from any NRO with the possibility of automatic installationa and addition launch arguments
+
 ## 737
 
 ## 735

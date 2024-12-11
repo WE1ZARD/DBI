@@ -52,6 +52,8 @@ BrowseAppsFromFiles=false
 ValidateSSL=false
 ; UpdateURL
 DBIUpdateURL=http://192.168.1.47/DBI/latest1.zip
+; Dump generated forwarders to configured dump location
+DumpForwarders=false
 
 [Filtering]
 ; Apply filebrowser filter to directories
