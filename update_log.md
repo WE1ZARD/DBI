@@ -1,3 +1,5 @@
+## 741
+Fixed 739, 740 critical bugs
 ## 740
 Added ability to create forwarders for NRO
 
