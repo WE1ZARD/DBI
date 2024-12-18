@@ -1,3 +1,9 @@
+## 744
+Option for previous behavior:
+[MTP]
+; Send Object_Removed event for files copied to Install storages
+AutoremoveInstalled=true
+
 ## 741
 Fixed 739, 740 critical bugs
 ## 740

@@ -50,6 +50,10 @@ TimeShowSeconds=true
 BrowseAppsFromFiles=false
 ; Validate SSL certificates on network connections
 ValidateSSL=false
+; UpdateURL
+DBIUpdateURL=http://192.168.1.47/DBI/latest1.zip
+; Dump generated forwarders to configured dump location
+DumpForwarders=false
 
 [Filtering]
 ; Apply filebrowser filter to directories
@@ -115,6 +119,8 @@ PatchVideoRec=false
 [MTP]
 ; Show or not NSP that includes base game, latest update and all DLC in single multi-title file
 ShowCombinedNSP=true
+; Add [Base] and [Update] suffix to filename
+AddBaseUpdate = false
 ; Show or not virtual "Mods & cheats" folder that redirects to sdmc:/atmosphere/contents/TITLEID
 ShowMAC=true
 ; Use TitleID for "Mods & cheats" folder
@@ -131,6 +137,8 @@ SingleURB=false
 BufferSize=512
 ; MTP transmission timeout in ms
 NewBufferTimeout=2500
+; Send Object_Removed event for files copied to Install storages
+AutoremoveInstalled=true
 
 ; FTP options
 [FTP]
@@ -146,6 +154,8 @@ MinPassivePort=40000
 MaxPassivePort=40100
 ; send current directory as type=cdir
 CDIR=false
+; Force UTF8 usage
+ForceUtf8=true
 
 ;HTTP options
 [HTTP]
@@ -165,8 +175,8 @@ Hidden=false
 ;Enable or disable various MTP storages
 [MTP Storages]
 1: SD Card=true
-2: Nand USER=false
-3: Nand SYSTEM=false
+2: Nand USER=true
+3: Nand SYSTEM=true
 4: Installed games=false
 5: SD Card install=true
 6: NAND install=true
