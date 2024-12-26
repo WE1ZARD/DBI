@@ -1,3 +1,6 @@
+## 747
+fix lots of bugs in the text editor
+
 ## 744
 Option for previous behavior:
 [MTP]

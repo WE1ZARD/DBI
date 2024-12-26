@@ -159,6 +159,8 @@ ForceUtf8=true
 
 ;HTTP options
 [HTTP]
+; Use parallel downloading
+UseParallelDownloading=true
 ; Access port
 Port=1234
 
