@@ -1,3 +1,6 @@
+## 749
+Russian encodings in the editor
+
 ## 747
 fix lots of bugs in the text editor
 
