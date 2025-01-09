@@ -28,11 +28,11 @@ jobs:
     - name: 'Pack'
       run: |
         cd ./CN
-        zip -rq ${{env.REPO}}_647_CN.zip ./switch
+        zip -rq9 ${{env.REPO}}_647_CN.zip ./switch
         cd ../EN
-        zip -rq ${{env.REPO}}_658_EN.zip ./switch
+        zip -rq9 ${{env.REPO}}_658_EN.zip ./switch
         cd ../RU
-        zip -rq ${{env.REPO}}_${{env.version}}_RU.zip ./switch
+        zip -rq9 ${{env.REPO}}_${{env.version}}_RU.zip ./switch
 
     - name: 'Upload'
       run: |

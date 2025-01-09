@@ -1,5 +1,13 @@
+## 750
+Various fixes + random certificates for tickets
+
 ## 749
 Russian encodings in the editor
+Fixed
+Resolved a bug with SD_Cache save operations.
+Added
+Support for multi-threaded HTTP downloads in title mode.
+Automatic encoding detection for Windows-1251, CP 866, KOI-8, IBM855, ISO/IEC 8859-5, and MacCyrillic.
 
 ## 747
 fix lots of bugs in the text editor
