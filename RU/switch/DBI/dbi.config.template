@@ -160,9 +160,11 @@ ForceUtf8=true
 ;HTTP options
 [HTTP]
 ; Use parallel downloading
-UseParallelDownloading=true
+UseParallelDownloading=false
 ; Access port
 Port=1234
+; Data read timeout (seconds)
+Timeout=3
 
 ; Access point options
 [Access point]

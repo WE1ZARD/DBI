@@ -1,3 +1,9 @@
+## DBI 757
+Minor fix: now zero-filling can be interrupted. At the same time, it can be used as a benchmark for the speed of writing to the card. The speed there is the maximum speed of installing games. On a good cable, they should match.
+
+## DBI 754
+Added support for e-books in FB2 format, as well as bug fixes
+
 ## DBI 750
 Various fixes + random certificates for tickets
 
