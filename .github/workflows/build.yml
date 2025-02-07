@@ -23,7 +23,7 @@ jobs:
 
     - name: Get Version
       run: |
-        echo "version=$(sed -n 1p ./update_log.md | sed "s/##\s//")" >> $GITHUB_ENV
+        echo "version=$(sed -n 1p ./update_log.md | sed "s/##\s${{env.REPO}}\s//")" >> $GITHUB_ENV
 
     - name: 'Pack'
       run: |
