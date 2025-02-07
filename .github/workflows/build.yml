@@ -28,10 +28,16 @@ jobs:
     - name: 'Pack'
       run: |
         cd ./CN
+        mv ./switch/DBI/dbi.config ./switch/DBI/dbi.config.template
+        mv ./switch/DBI/DBI.nro ./switch/DBI/DBI_CN.nro
         zip -rq9 ${{env.REPO}}_647_CN.zip ./switch
         cd ../EN
+        mv ./switch/DBI/dbi.config ./switch/DBI/dbi.config.template
+        mv ./switch/DBI/DBI.nro ./switch/DBI/DBI_EN.nro
         zip -rq9 ${{env.REPO}}_658_EN.zip ./switch
         cd ../RU
+        mv ./switch/DBI/dbi.config ./switch/DBI/dbi.config.template
+        mv ./switch/DBI/DBI.nro ./switch/DBI/DBI_RU.nro
         zip -rq9 ${{env.REPO}}_${{env.version}}_RU.zip ./switch
 
     - name: 'Upload'
