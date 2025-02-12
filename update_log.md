@@ -1,4 +1,7 @@
 ## DBI 759
+Working with 7zip. Upd. comics in cb7 format including
+
+## DBI 758
 Reworked controls for reading FB2
 
 ## DBI 757
