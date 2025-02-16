@@ -1,3 +1,6 @@
+## DBI 760
+New setting for FTP: Use MSG_WAITALL in recv. Increases the transfer speed of the FTP server, but may work strangely with some FTP clients (especially on mobile)
+
 ## DBI 759
 Working with 7zip. Upd. comics in cb7 format including
 
