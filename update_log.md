@@ -1,3 +1,6 @@
+## DBI 761
+In addition to screen and width scales, dot-to-dot and doubling scales have been added to image viewing.
+
 ## DBI 760
 New setting for FTP: Use MSG_WAITALL in recv. Increases the transfer speed of the FTP server, but may work strangely with some FTP clients (especially on mobile)
 
