@@ -1,3 +1,13 @@
+## DBI 763
+Fixes
+- Minor fix: Zero-filling can now be interrupted. It can also be used as a write speed benchmark for the SD card. The speed displayed corresponds to the maximum game installation speed. On a good cable, they should match.
+New Features
+- FTP Setting: Added an option to use MSG_WAITALL in recv. This increases FTP server transfer speed but may cause issues with some FTP clients, especially on mobile.
+- Image Viewer: Added new zoom options—pixel-to-pixel and 2x zoom—alongside existing "fit to screen" and "fit to width" modes.
+- 7zip Integration
+Experimental Changes
+- IPC System Overhaul: The entire inter-process communication (IPC) system for interacting with system services has been reworked. This version is experimental and may be unstable.
+
 ## DBI 761
 In addition to screen and width scales, dot-to-dot and doubling scales have been added to image viewing.
 
