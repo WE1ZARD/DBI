@@ -1,3 +1,6 @@
+## DBI 772
+- Archive with the new version of DBI + config + location file with the new repository
+
 ## DBI 763
 Fixes
 - Minor fix: Zero-filling can now be interrupted. It can also be used as a write speed benchmark for the SD card. The speed displayed corresponds to the maximum game installation speed. On a good cable, they should match.
