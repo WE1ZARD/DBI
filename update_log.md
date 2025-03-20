@@ -1,3 +1,6 @@
+## DBI 773
+- Fix for installing mods with ips files only
+
 ## DBI 772
 - Archive with the new version of DBI + config + location file with the new repository
 
