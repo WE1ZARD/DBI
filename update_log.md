@@ -1,3 +1,5 @@
+## DBI 774
+- hotfix msp [msp buider](https://github.com/arabianq/build_msp)
 ## DBI 773
 - Fix for installing mods with ips files only
 
