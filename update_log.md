@@ -1,3 +1,6 @@
+## DBI 776
+- The promised UserAgent + a little more info than just Can not read from URL
+
 ## DBI 775
 - Fixed critical bug with updates installation containing delta fragments
 - Added one-click shortcut for hbmenu
