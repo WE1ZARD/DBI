@@ -1,3 +1,6 @@
+## DBI 777
+- Trying to solve the problem with Can not read from URL
+
 ## DBI 776
 - The promised UserAgent + a little more info than just Can not read from URL
 
