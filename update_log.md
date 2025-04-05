@@ -1,3 +1,6 @@
+## DBI 779
+- Possibly(!) fix for the problem with MTP connection.
+
 ## DBI 778
 - Fix hash when installing CustomXCI + signature check in integrity check
 
