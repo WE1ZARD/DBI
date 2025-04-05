@@ -1,3 +1,6 @@
+## DBI 778
+- Fix hash when installing CustomXCI + signature check in integrity check
+
 ## DBI 777
 - Trying to solve the problem with Can not read from URL
 
