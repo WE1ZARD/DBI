@@ -1,3 +1,6 @@
+## DBI 780
+- Age rating editor for installed games
+
 ## DBI 779
 - Possibly(!) fix for the problem with MTP connection.
 
