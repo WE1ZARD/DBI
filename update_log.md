@@ -1,3 +1,6 @@
+## DBI 781
+- Fix "Extract to LFS" function
+
 ## DBI 780
 - Age rating editor for installed games
 
