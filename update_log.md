@@ -1,3 +1,6 @@
+## DBI 782
+- Fixed checking for LFS presence when determining whether a title should be blacklisted.
+
 ## DBI 781
 - Fix "Extract to LFS" function
 
