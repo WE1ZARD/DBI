@@ -52,6 +52,13 @@ def process_file_range_command(data_size):
 
     LOG('Range Size: {}, Range Offset: {}, Name len: {}, Name: {}'.format(range_size, range_offset, nsp_name_len, nsp_name))
 
+    filesize = 0
+    with open(file_list[nsp_name].__str__(), 'rb') as f:
+        f.seek(0,2)
+        filesize = f.tell()
+
+    range_size = min(range_size, filesize - range_offset) # Do not read more than have
+
     response_bytes = struct.pack('<4sIII', b'DBI0', CMD_TYPE_RESPONSE, CMD_ID_FILE_RANGE, range_size)
     dev.write(0x01, response_bytes)
 

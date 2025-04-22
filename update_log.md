@@ -1,3 +1,6 @@
+## DBI 783
+- Fix for FTP installation of a large number of files + fixes in dbibackend
+
 ## DBI 782
 - Fixed checking for LFS presence when determining whether a title should be blacklisted.
 
