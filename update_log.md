@@ -1,3 +1,6 @@
+## DBI 784
+- Generating DLC unlockers
+
 ## DBI 783
 - Fix for FTP installation of a large number of files + fixes in dbibackend
 
