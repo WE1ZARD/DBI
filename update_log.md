@@ -1,3 +1,7 @@
+## DBI 789-CN
+- 更新789中文版
+- 由国内 [时鹏亮](https://shipengliang.com/games/%e7%ab%af%e5%8d%88%e8%8a%82%e5%84%bf%e7%ab%a5%e8%8a%82%e7%a4%bc%e7%89%a9%ef%bc%9a%e5%85%a8%e7%90%83%e9%a6%96%e5%8f%91-dbi-%e4%b8%ad%e6%96%87%e7%89%88.html) 汉化, 感谢热心人士对NS圈做出的贡献
+
 ## DBI 789
 - Attempt to defeat libcurl (7)
 ## DBI 788
