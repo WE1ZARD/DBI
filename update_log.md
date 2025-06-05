@@ -1,3 +1,6 @@
+## DBI 791
+- General/SmartNetworkConfig。在禁用的情况下，不会进行缓冲区大小的调整，而是使用固定值
+
 ## DBI 790
 - UserAgent 的使用已重新设计。首先，UA 现在默认匿名；其次，在 Yandex 浏览器的代理上，针对 Yandex 服务器执行 UA 欺骗。理论上，这应该可以消除 Yandex 对第三方客户端的限制。
 
