@@ -1,3 +1,6 @@
+## DBI 792
+- Please. Version with CPU boost enabled for everyone. But if on Chifir it flies into the sky or gets stuck on the floor, don't complain.
+
 ## DBI 791
 - General/SmartNetworkConfig。在禁用的情况下，不会进行缓冲区大小的调整，而是使用固定值
 
