@@ -30,7 +30,7 @@ jobs:
         cd ./CN
         mv ./switch/DBI/dbi.config ./switch/DBI/dbi.config.template
         mv ./switch/DBI/DBI.nro ./switch/DBI/DBI_CN.nro
-        zip -rq9 ${{env.REPO}}_789_CN.zip ./switch
+        zip -rq9 ${{env.REPO}}_794_CN.zip ./switch
         cd ../EN
         mv ./switch/DBI/dbi.config ./switch/DBI/dbi.config.template
         mv ./switch/DBI/DBI.nro ./switch/DBI/DBI_EN.nro
@@ -43,8 +43,8 @@ jobs:
     - name: 'Upload'
       run: |
         mv ./update_log.md ./更新日志.md
-        curl -T '{./RU/${{env.REPO}}_${{env.version}}_RU.zip,更新日志.md,${{env.REPO}}_789_CN.zip}' -u ${{ secrets.WEBDAV_TOKEN }} 'https://dav.jianguoyun.com/dav/switch/${{env.REPO}}/'
-        mv ./CN/${{env.REPO}}_789_CN.zip ./${{env.REPO}}_CN.zip
+        curl -T '{./RU/${{env.REPO}}_${{env.version}}_RU.zip,更新日志.md,${{env.REPO}}_794_CN.zip}' -u ${{ secrets.WEBDAV_TOKEN }} 'https://dav.jianguoyun.com/dav/switch/${{env.REPO}}/'
+        mv ./CN/${{env.REPO}}_794_CN.zip ./${{env.REPO}}_CN.zip
         mv ./EN/${{env.REPO}}_658_EN.zip ./${{env.REPO}}_EN.zip
         mv ./RU/${{env.REPO}}_${{env.version}}_RU.zip ./${{env.REPO}}_RU.zip
         
