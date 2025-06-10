@@ -43,7 +43,7 @@ jobs:
     - name: 'Upload'
       run: |
         mv ./update_log.md ./更新日志.md
-        curl -T '{./RU/${{env.REPO}}_${{env.version}}_RU.zip,更新日志.md,${{env.REPO}}_794_CN.zip}' -u ${{ secrets.WEBDAV_TOKEN }} 'https://dav.jianguoyun.com/dav/switch/${{env.REPO}}/'
+        curl -T '{./RU/${{env.REPO}}_${{env.version}}_RU.zip,更新日志.md,./CN/${{env.REPO}}_794_CN.zip}' -u ${{ secrets.WEBDAV_TOKEN }} 'https://dav.jianguoyun.com/dav/switch/${{env.REPO}}/'
         mv ./CN/${{env.REPO}}_794_CN.zip ./${{env.REPO}}_CN.zip
         mv ./EN/${{env.REPO}}_658_EN.zip ./${{env.REPO}}_EN.zip
         mv ./RU/${{env.REPO}}_${{env.version}}_RU.zip ./${{env.REPO}}_RU.zip
