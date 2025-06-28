@@ -1,3 +1,6 @@
+## DBI 796
+- Mostly minor bug fixes, but after reading some smart books on C 23, I revamped the multithreading and synchronization objects. On my almost clean environment, I achieved about an 8% increase in installation speed.
+
 ## DBI 795
 - Added 100ms delay between file operations during registration
 ## DBI 794
