@@ -1,3 +1,6 @@
+## DBI 798
+- Fixing the display of occupied space in saves
+
 ## DBI 796
 - Mostly minor bug fixes, but after reading some smart books on C 23, I revamped the multithreading and synchronization objects. On my almost clean environment, I achieved about an 8% increase in installation speed.
 
