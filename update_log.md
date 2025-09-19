@@ -1,4 +1,9 @@
 ## DBI 814
+- The honeypot was removed as it was no longer needed. 
+- It served its purpose :) A list of homebrew has been added. 
+- Now, when there are errors in game transfer, space is freed up. 
+- The stability of file transfer via MTP in title mode has been improved.
+
 ## DBI 810
 - 各种小问题修复
 - 最终明确了当前固件使用的SDK版本的确切定义
